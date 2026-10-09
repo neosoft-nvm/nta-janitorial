@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTA Janitorial | New Jersey's Premier Commercial Cleaning & Facility Solutions</title>
+    <meta name="description" content="Commercial janitorial services, office cleaning, medical facility sanitation, and floor care throughout New Jersey. Reliable, insured, and background-checked professionals.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Space Grotesk"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0B132B',
+                            dark: '#1C2541',
+                            card: '#131F37',
+                            primary: '#0284C7', // Electric Ocean Blue
+                            accent: '#06D6A0',  // Emerald Mint Glow
+                            accentHover: '#05b98a',
+                            light: '#F8FAFC',
+                            muted: '#94A3B8'
+                        }
+                    },
+                    boxShadow: {
+                        'glow': '0 0 35px -5px rgba(6, 214, 160, 0.3)',
+                        'glow-blue': '0 0 35px -5px rgba(2, 132, 199, 0.35)',
+                        'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-brand-navy text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-brand-accent selection:text-brand-navy">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-dark/90 border-b border-slate-800 text-xs py-2 px-4 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-3">
+                <span class="inline-flex items-center gap-1.5 bg-brand-accent/10 text-brand-accent px-2.5 py-0.5 rounded-full font-semibold border border-brand-accent/20">
+                    <span class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"></span>
+                    Serving All 21 New Jersey Counties
+                </span>
+                <span class="hidden md:inline text-slate-400">Headquartered in North Brunswick, NJ</span>
+            </div>
+            <div class="flex items-center gap-6 text-slate-300 font-medium">
+                <span class="hidden lg:inline"><i data-lucide="shield-check" class="inline w-3.5 h-3.5 text-brand-accent mr-1"></i> Fully Licensed, Bonded & Insured</span>
+                <span class="hidden sm:inline"><i data-lucide="clock" class="inline w-3.5 h-3.5 text-brand-accent mr-1"></i> 24/7 Off-Hours & Weekend Schedules</span>
+                <a href="tel:7326599648" class="text-brand-accent hover:underline flex items-center gap-1 font-bold">
+                    <i data-lucide="phone-call" class="w-3.5 h-3.5"></i>
+                    (732) 659-9648
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="bg-brand-navy/85 backdrop-blur-xl border-b border-slate-800/80 sticky top-9 z-40 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-primary to-brand-accent p-0.5 shadow-glow-blue group-hover:shadow-glow transition-all duration-300">
+                        <div class="w-full h-full bg-brand-navy rounded-[10px] flex items-center justify-center">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-brand-accent group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="font-display font-bold text-2xl tracking-wider text-white flex items-center gap-1.5">
+                            NTA <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-accent">JANITORIAL</span>
+                        </div>
+                        <div class="text-[10px] tracking-widest uppercase font-semibold text-slate-400 -mt-1">Commercial Cleaning Systems</div>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a href="#services" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors">Services</a>
+                    <a href="#calculator" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span> Instant Estimator
+                    </a>
+                    <a href="#before-after" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors">Before / After</a>
+                    <a href="#why-us" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors">The NTA Standard</a>
+                    <a href="#reviews" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors">Reviews</a>
+                    <a href="#contact" class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors">Contact</a>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="hidden sm:flex items-center gap-4">
+                    <a href="tel:7326599648" class="text-sm font-semibold text-slate-200 hover:text-white px-3 py-2 rounded-lg hover:bg-slate-800/60 transition-colors flex items-center gap-2">
+                        <i data-lucide="phone" class="w-4 h-4 text-brand-accent"></i>
+                        732-659-9648
+                    </a>
+                    <a href="#quote-modal" onclick="openQuoteModal()" class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-semibold rounded-xl group bg-gradient-to-r from-brand-primary to-brand-accent group-hover:from-brand-accent group-hover:to-brand-primary shadow-glow">
+                        <span class="relative px-5 py-2.5 transition-all ease-in duration-200 bg-brand-navy rounded-[10px] group-hover:bg-opacity-0 font-display flex items-center gap-2">
+                            <span>Get Rapid Quote</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors"></i>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-brand-dark/95 border-b border-slate-800 px-6 py-6 backdrop-blur-xl">
+            <div class="flex flex-col gap-4">
+                <a href="#services" onclick="toggleMobileMenu()" class="text-base font-medium text-slate-200 hover:text-brand-accent py-2 border-b border-slate-800/50">Services</a>
+                <a href="#calculator" onclick="toggleMobileMenu()" class="text-base font-medium text-brand-accent py-2 border-b border-slate-800/50 flex items-center justify-between">
+                    <span>Instant Price Calculator</span>
+                    <span class="text-xs bg-brand-accent/20 px-2 py-0.5 rounded text-brand-accent">Interactive</span>
+                </a>
+                <a href="#before-after" onclick="toggleMobileMenu()" class="text-base font-medium text-slate-200 hover:text-brand-accent py-2 border-b border-slate-800/50">Before & After Results</a>
+                <a href="#why-us" onclick="toggleMobileMenu()" class="text-base font-medium text-slate-200 hover:text-brand-accent py-2 border-b border-slate-800/50">The NTA Standard</a>
+                <a href="#reviews" onclick="toggleMobileMenu()" class="text-base font-medium text-slate-200 hover:text-brand-accent py-2 border-b border-slate-800/50">Client Reviews</a>
+                <a href="#contact" onclick="toggleMobileMenu()" class="text-base font-medium text-slate-200 hover:text-brand-accent py-2">Contact & Location</a>
+                <div class="pt-4 flex flex-col gap-3">
+                    <a href="tel:7326599648" class="w-full text-center py-3 rounded-xl bg-slate-800 text-white font-bold flex items-center justify-center gap-2">
+                        <i data-lucide="phone" class="w-4 h-4 text-brand-accent"></i> Call 732-659-9648
+                    </a>
+                    <button onclick="openQuoteModal(); toggleMobileMenu();" class="w-full py-3 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent text-brand-navy font-bold shadow-glow">
+                        Request Rapid Quote
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-12 pb-24 md:pt-20 md:pb-32 overflow-hidden">
+        <!-- Ambient Radial Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-brand-primary/15 rounded-full blur-[140px] pointer-events-none"></div>
+        <div class="absolute top-1/3 right-10 w-[450px] h-[450px] bg-brand-accent/10 rounded-full blur-[130px] pointer-events-none"></div>
+        
+        <!-- Grid Pattern Overlay -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b15_1px,transparent_1px),linear-gradient(to_bottom,#1e293b15_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Hero Content -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    <!-- Pill Tag -->
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/60 shadow-inner mb-6 backdrop-blur-md">
+                        <i data-lucide="award" class="w-4 h-4 text-brand-accent"></i>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-slate-300">
+                            New Jersey's #1 Commercial Janitorial Provider
+                        </span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mb-6">
+                        Pristine Spaces.<br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-teal-300 to-brand-accent">
+                            Zero Disruption.
+                        </span><br>
+                        Guaranteed.
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Reliable, hospital-grade commercial cleaning for offices, schools, medical centers, auto dealerships, and warehouses throughout New Jersey. Handled by rigorously vetted, insured pros.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
+                        <button onclick="openQuoteModal()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent hover:from-brand-accent hover:to-brand-primary text-brand-navy font-bold text-base transition-all duration-300 shadow-glow flex items-center justify-center gap-2 group">
+                            <span>Get Instant Custom Quote</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <a href="tel:7326599648" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-white font-semibold text-base transition-colors flex items-center justify-center gap-3 backdrop-blur-md">
+                            <i data-lucide="phone" class="w-5 h-5 text-brand-accent"></i>
+                            <span>(732) 659-9648</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Metrics Grid -->
+                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">99.8%</div>
+                            <div class="text-xs text-slate-400 mt-0.5">Client Retention Rate</div>
+                        </div>
+                        <div>
+                            <div class="font-display font-extrabold text-2xl sm:text-3xl text-brand-accent">24/7</div>
+                            <div class="text-xs text-slate-400 mt-0.5">Flexible Shift Schedules</div>
+                        </div>
+                        <div>
+                            <div class="font-display font-extrabold text-2xl sm:text-3xl text-sky-400">100%</div>
+                            <div class="text-xs text-slate-400 mt-0.5">Bonded & Insured (NJ)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Card / Visual Preview -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Glow effect under card -->
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-brand-primary to-brand-accent rounded-3xl blur-xl opacity-30 animate-pulse"></div>
+                        
+                        <!-- Main Visual Card -->
+                        <div class="relative rounded-2xl bg-brand-card/95 border border-slate-700/80 p-6 shadow-2xl backdrop-blur-xl">
+                            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                                    <span class="text-xs font-semibold tracking-wide text-slate-300">RAPID ON-SITE AUDIT & DISPATCH</span>
+                                </div>
+                                <span class="text-[11px] font-mono text-brand-accent bg-brand-accent/10 px-2.5 py-1 rounded-full border border-brand-accent/20">Active in NJ</span>
+                            </div>
+
+                            <!-- Showcase Visual -->
+                            <div class="relative my-5 rounded-xl overflow-hidden aspect-[4/3] bg-slate-900 border border-slate-800 group">
+                                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Professional Commercial Cleaning Crew in Office" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/30 to-transparent"></div>
+                                <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                                    <div>
+                                        <div class="text-xs text-slate-300 font-medium">Facility Standard</div>
+                                        <div class="text-sm font-bold text-white">Triple-Filtered HEPA + EPA Disinfection</div>
+                                    </div>
+                                    <span class="bg-brand-accent text-brand-navy text-[11px] font-extrabold px-2 py-1 rounded">OSHA Certified</span>
+                                </div>
+                            </div>
+
+                            <!-- Mini Quick Estimator Trigger Box -->
+                            <div class="bg-slate-900/80 rounded-xl p-4 border border-slate-800">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-xs font-bold text-slate-200 flex items-center gap-1.5">
+                                        <i data-lucide="calculator" class="w-4 h-4 text-brand-accent"></i>
+                                        Need a Custom Pricing Estimate?
+                                    </span>
+                                    <span class="text-[10px] text-emerald-400 font-mono">Instant Result</span>
+                                </div>
+                                <p class="text-xs text-slate-400 mb-3">Calculate square footage & cleaning frequencies with zero obligation.</p>
+                                <a href="#calculator" class="block w-full py-2.5 text-center text-xs font-bold text-slate-900 bg-brand-accent hover:bg-brand-accentHover rounded-lg transition-colors shadow-sm">
+                                    Launch Instant Calculator ↓
+                                </a>
+                            </div>
+
+                            <!-- Floating Badge 1 -->
+                            <div class="absolute -bottom-5 -left-5 bg-brand-dark/95 border border-slate-700 p-3.5 rounded-xl shadow-xl flex items-center gap-3 backdrop-blur-md">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+                                    <i data-lucide="check-check" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs font-bold text-white">24-Hour Re-Clean</div>
+                                    <div class="text-[11px] text-slate-400">100% Satisfaction Guarantee</div>
+                                </div>
+                            </div>
+
+                            <!-- Floating Badge 2 -->
+                            <div class="absolute -top-4 -right-4 bg-brand-dark/95 border border-slate-700 py-2 px-3 rounded-lg shadow-xl flex items-center gap-2 backdrop-blur-md">
+                                <i data-lucide="star" class="w-4 h-4 fill-amber-400 text-amber-400"></i>
+                                <span class="text-xs font-bold text-white">5.0 Star Rated in NJ</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BADGES CAROUSEL -->
+    <div class="border-y border-slate-800/80 bg-brand-dark/50 py-8 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-xs uppercase tracking-widest text-slate-400 font-semibold mb-6">
+                Specialized Sanitization & Janitorial Protocols For New Jersey Commercial Properties
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 items-center text-center">
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="building-2" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Corporate Offices</span>
+                </div>
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="cross" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Medical Facilities</span>
+                </div>
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Schools & Daycares</span>
+                </div>
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="car" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Auto Dealerships</span>
+                </div>
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="warehouse" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Industrial & Logistics</span>
+                </div>
+                <div class="flex flex-col items-center gap-2 group">
+                    <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 group-hover:text-brand-accent group-hover:scale-110 transition-all">
+                        <i data-lucide="truck" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium text-slate-300">Move-In / Move-Out</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                    Comprehensive Janitorial Solutions
+                </span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white mt-4 tracking-tight">
+                    Engineered For Cleanliness.<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-accent">
+                        Tailored To Your Facility.
+                    </span>
+                </h2>
+                <p class="text-slate-400 mt-4 text-base sm:text-lg">
+                    Whether you manage a 50,000 sq ft logistics hub or a multi-provider healthcare clinic, NTA delivers pristine results with customized checklists and strict supervision.
+                </p>
+            </div>
+
+            <!-- Service Cards Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Office Cleaning -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-blue-500/10 text-sky-400 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-blue-500/20 transition-all">
+                            <i data-lucide="briefcase" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Corporate Office Cleaning</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Clean workspaces boost employee productivity and impress prospective clients. Comprehensive sanitization of work stations, executive suites, conference halls, break rooms, and high-touch areas.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Daily / Nightly scheduled shifts</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Restroom restock & deep disinfection</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Trash, recycling & cubicle detail</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('Corporate Office Cleaning')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+                <!-- Service 2: Medical Facility Sanitation -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-4 right-4 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                        EPA Approved
+                    </div>
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-emerald-500/10 text-brand-accent flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-emerald-500/20 transition-all">
+                            <i data-lucide="stethoscope" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Medical & Healthcare Cleaning</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Healthcare spaces demand zero room for error. We adhere to rigorous terminal cleaning protocols, utilizing hospital-grade disinfectants to prevent cross-contamination and viral spread.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Medical clinic & dental office protocol</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Pathogen & microbial surface disinfection</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> OSHA & CDC aligned standards</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('Medical Facility Cleaning')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+                <!-- Service 3: School & Daycare Cleaning -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-amber-500/20 transition-all">
+                            <i data-lucide="school" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Schools & Daycare Centers</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Children's facilities require kid-safe, non-toxic, yet powerful sanitation. We eliminate cold and flu vectors on toys, desks, cafeteria tables, and playgrounds without harsh fumes.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Non-toxic, green certified chemicals</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> High-touch touchpoint sterilization</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Comprehensive background-checked staff</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('School & Daycare Cleaning')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+                <!-- Service 4: Auto Dealerships & Retail -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500/20 transition-all">
+                            <i data-lucide="sparkle" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Auto Dealerships & Showrooms</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Showroom floors must sparkle like new inventory. High-gloss showroom floor buffing, streak-free glass window cleaning, customer lounges, and sales offices.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Mirror-finish floor burnishing</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Glass curtain & entrance cleaning</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Service bay & waiting room care</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('Auto Dealership Cleaning')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+                <!-- Service 5: Commercial Floor & Carpet Care -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-cyan-500/20 transition-all">
+                            <i data-lucide="layers" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Floor Stripping, Waxing & Carpet Care</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Restore heavy-traffic VCT tile, hardwood, and commercial carpet. Hot water extraction for stubborn carpet stains, plus deep stripping, multi-coat waxing, and high-speed burnishing.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Commercial hot-water carpet extraction</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> VCT tile strip, seal & wax</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Grout scrub & protective sealant</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('Floor Care & Stripping/Waxing')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+                <!-- Service 6: Commercial Move-In / Move-Out Turnover -->
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 hover:shadow-2xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-rose-500/20 transition-all">
+                            <i data-lucide="package-check" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white mb-3">Commercial Move-In / Move-Out</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Relocating or preparing a commercial property for incoming tenants? We deliver deep turnover cleaning to guarantee security deposit returns and immaculate final lease walkthroughs.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Complete wall-to-wall deep scrub</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Fixture, ceiling & HVAC vent cleaning</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Fast turnaround for tight deadlines</li>
+                        </ul>
+                    </div>
+                    <button onclick="openQuoteModal('Commercial Move-In/Out Cleaning')" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+                        <span>Book Site Walkthrough</span>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE ESTIMATE CALCULATOR (THE $10,000 CONVERSION ENGINE) -->
+    <section id="calculator" class="py-24 bg-brand-dark/60 border-y border-slate-800 relative">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                    Interactive Cost Estimator
+                </span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-3 tracking-tight">
+                    Estimate Your Facility Cleaning Rate
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base mt-2">
+                    Select your facility specifications below for an instant ballpark cost range, then lock in your date for an on-site walkthrough.
+                </p>
+            </div>
+
+            <!-- The Calculator Card -->
+            <div class="bg-brand-card border border-slate-700/80 rounded-3xl p-6 sm:p-10 shadow-2xl backdrop-blur-xl">
+                <div class="grid lg:grid-cols-12 gap-8">
+                    
+                    <!-- Left: Configuration Inputs -->
+                    <div class="lg:col-span-7 space-y-6">
+                        
+                        <!-- 1. Facility Type -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">1. Facility Type</label>
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5" id="facilitySelector">
+                                <button type="button" class="facility-btn active px-3 py-2.5 text-xs font-semibold rounded-xl border border-brand-accent bg-brand-accent/15 text-white text-center transition-all" data-type="office" data-multiplier="1.0">
+                                    Corporate Office
+                                </button>
+                                <button type="button" class="facility-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-type="medical" data-multiplier="1.35">
+                                    Medical Facility
+                                </button>
+                                <button type="button" class="facility-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-type="school" data-multiplier="1.15">
+                                    School / Daycare
+                                </button>
+                                <button type="button" class="facility-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-type="dealership" data-multiplier="1.2">
+                                    Auto Dealership
+                                </button>
+                                <button type="button" class="facility-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-type="warehouse" data-multiplier="0.9">
+                                    Warehouse / Ind.
+                                </button>
+                                <button type="button" class="facility-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-type="turnover" data-multiplier="1.5">
+                                    Move-In / Out
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 2. Square Footage Slider -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-300">2. Approx. Square Footage</label>
+                                <span id="sqftDisplay" class="font-display font-bold text-brand-accent text-base">5,000 sq ft</span>
+                            </div>
+                            <input type="range" id="sqftSlider" min="1000" max="30000" step="500" value="5000" class="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-brand-accent">
+                            <div class="flex justify-between text-[11px] text-slate-500 mt-1 font-mono">
+                                <span>1,000 sq ft</span>
+                                <span>15,000 sq ft</span>
+                                <span>30,000+ sq ft</span>
+                            </div>
+                        </div>
+
+                        <!-- 3. Service Frequency -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">3. Cleaning Frequency</label>
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="freqSelector">
+                                <button type="button" class="freq-btn active px-3 py-2.5 text-xs font-semibold rounded-xl border border-brand-accent bg-brand-accent/15 text-white text-center transition-all" data-freq="daily" data-visits="5">
+                                    5x / Week (Daily)
+                                </button>
+                                <button type="button" class="freq-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-freq="3x" data-visits="3">
+                                    3x / Week
+                                </button>
+                                <button type="button" class="freq-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-freq="weekly" data-visits="1">
+                                    1x / Week
+                                </button>
+                                <button type="button" class="freq-btn px-3 py-2.5 text-xs font-semibold rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500 text-center transition-all" data-freq="biweekly" data-visits="0.5">
+                                    Bi-Weekly
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 4. Specialty Add-ons -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">4. Optional Specialty Add-Ons</label>
+                            <div class="space-y-2">
+                                <label class="flex items-center gap-3 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 cursor-pointer transition-colors text-xs text-slate-300">
+                                    <input type="checkbox" id="addonFloor" class="w-4 h-4 rounded text-brand-accent focus:ring-0 bg-slate-900 border-slate-600">
+                                    <span>Floor Stripping, Waxing & Burnishing</span>
+                                </label>
+                                <label class="flex items-center gap-3 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 cursor-pointer transition-colors text-xs text-slate-300">
+                                    <input type="checkbox" id="addonCarpet" class="w-4 h-4 rounded text-brand-accent focus:ring-0 bg-slate-900 border-slate-600">
+                                    <span>Deep Carpet Hot-Water Extraction</span>
+                                </label>
+                                <label class="flex items-center gap-3 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 cursor-pointer transition-colors text-xs text-slate-300">
+                                    <input type="checkbox" id="addonDisinfection" class="w-4 h-4 rounded text-brand-accent focus:ring-0 bg-slate-900 border-slate-600">
+                                    <span>Electrostatic Antimicrobial Fogging</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Live Estimate Output Box -->
+                    <div class="lg:col-span-5 bg-gradient-to-b from-slate-900 to-brand-navy rounded-2xl border border-slate-700/80 p-6 sm:p-8 flex flex-col justify-between shadow-inner">
+                        <div>
+                            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                                <span class="text-xs uppercase tracking-wider font-semibold text-slate-400">Estimated Monthly Range</span>
+                                <span class="text-[11px] bg-emerald-500/10 text-emerald-400 font-bold px-2 py-0.5 rounded">Real-Time</span>
+                            </div>
+
+                            <div class="my-6">
+                                <div class="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
+                                    <span id="priceRange" class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-accent">$450 - $650</span>
+                                    <span class="text-xs font-normal text-slate-400">/ mo</span>
+                                </div>
+                                <p class="text-xs text-slate-400 mt-2">
+                                    *Based on typical NJ commercial facility rates. Final rate confirmed after free on-site walk inspection.
+                                </p>
+                            </div>
+
+                            <!-- Summary Checklist -->
+                            <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700/50 space-y-2 text-xs text-slate-300 mb-6">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Selected Facility:</span>
+                                    <span id="summaryFacility" class="font-semibold text-white">Corporate Office</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Square Footage:</span>
+                                    <span id="summarySqft" class="font-semibold text-white">5,000 sq ft</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-slate-400">Cleaning Frequency:</span>
+                                    <span id="summaryFreq" class="font-semibold text-white">5x / Week (Daily)</span>
+                                </div>
+                                <div class="flex items-center justify-between pt-2 border-t border-slate-700/50">
+                                    <span class="text-slate-400">Supply Inclusions:</span>
+                                    <span class="font-semibold text-brand-accent">All EPA Chemicals Included</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button onclick="lockInQuote()" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent hover:from-brand-accent hover:to-brand-primary text-brand-navy font-bold text-sm transition-all shadow-glow flex items-center justify-center gap-2 group">
+                                <span>Lock In Estimate & Schedule Walkthrough</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                            </button>
+                            <p class="text-center text-[11px] text-slate-400 mt-3 flex items-center justify-center gap-1">
+                                <i data-lucide="shield-check" class="w-3.5 h-3.5 text-brand-accent"></i>
+                                Free On-Site Inspection • No Long-Term Contracts Required
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE BEFORE & AFTER SLIDER SHOWCASE -->
+    <section id="before-after" class="py-24 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                    Real Commercial Results
+                </span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-3 tracking-tight">
+                    See The NTA Transformation
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base mt-2">
+                    Drag the slider horizontally to compare neglected commercial surfaces against our deep sanitization results.
+                </p>
+            </div>
+
+            <!-- The Slider Component -->
+            <div class="max-w-4xl mx-auto">
+                <div class="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 select-none" id="baContainer">
+                    
+                    <!-- After Image (Background) -->
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80" alt="Spotless Modern Corporate Office After NTA Cleaning" class="absolute inset-0 w-full h-full object-cover">
+                    <span class="absolute top-4 right-4 bg-emerald-500/90 text-brand-navy font-bold text-xs uppercase px-3 py-1 rounded-full z-10 shadow-lg">
+                        After: NTA Cleaned
+                    </span>
+
+                    <!-- Before Image (Clipped Foreground) -->
+                    <div id="baBeforeWrapper" class="absolute inset-y-0 left-0 w-1/2 overflow-hidden border-r-2 border-brand-accent">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80" alt="Uncleaned Dusty Work Area" class="absolute inset-0 w-full h-full object-cover max-w-none" id="baBeforeImg">
+                        <span class="absolute top-4 left-4 bg-slate-900/90 text-white font-bold text-xs uppercase px-3 py-1 rounded-full z-10 shadow-lg border border-slate-700">
+                            Before: Neglected
+                        </span>
+                    </div>
+
+                    <!-- Draggable Handle Divider -->
+                    <div id="baHandle" class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-8 flex items-center justify-center cursor-ew-resize z-20 pointer-events-none">
+                        <div class="w-9 h-9 rounded-full bg-brand-accent text-brand-navy shadow-glow flex items-center justify-center font-bold">
+                            <i data-lucide="chevrons-left-right" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+
+                    <!-- Range input control for easy drag & touch -->
+                    <input type="range" id="baRange" min="0" max="100" value="50" class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-30">
+                </div>
+
+                <div class="flex items-center justify-between text-xs text-slate-400 mt-4 px-2">
+                    <span class="flex items-center gap-1.5"><i data-lucide="arrow-left" class="w-3.5 h-3.5 text-slate-400"></i> Drag left for full AFTER view</span>
+                    <span class="font-semibold text-slate-300">Commercial VCT Strip & Wax / Office Deep Clean</span>
+                    <span class="flex items-center gap-1.5">Drag right for BEFORE <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-slate-400"></i></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE NTA (THE 4 PILLARS) -->
+    <section id="why-us" class="py-24 bg-brand-dark/70 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                        The NTA Reliability Guarantee
+                    </span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-4 tracking-tight leading-tight">
+                        Why New Jersey Facility Managers Rely On Us Year After Year
+                    </h2>
+                    <p class="text-slate-300 mt-4 text-base leading-relaxed">
+                        Commercial cleaning companies often start strong, then cut corners after month three. At NTA, our systematic inspection checklists and dedicated supervisors ensure week 52 looks as spotless as day one.
+                    </p>
+
+                    <div class="mt-8 space-y-4">
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-brand-primary/20 text-sky-400 flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Background-Checked & Uniformed Personnel</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Every staff member is thoroughly vetted, insured, and wearing professional identification.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="leaf" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">EPA-Registered & Eco-Friendly Supplies</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Hospital-grade sanitizers that eliminate 99.9% of bacteria without dangerous chemical odors.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="clipboard-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Digital Quality Control Audits</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Supervisors perform regular randomized walk-through audits with signed off checklists.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="bg-brand-card p-6 rounded-2xl border border-slate-700/70 shadow-lg">
+                            <div class="text-3xl font-display font-extrabold text-brand-accent mb-2">0</div>
+                            <div class="font-bold text-white text-base mb-1">Workday Disruptions</div>
+                            <p class="text-xs text-slate-400">We work quiet night and weekend shifts. Arrive in the morning to an immaculate space without seeing a single vacuum cord.</p>
+                        </div>
+                        <div class="bg-brand-card p-6 rounded-2xl border border-slate-700/70 shadow-lg">
+                            <div class="text-3xl font-display font-extrabold text-sky-400 mb-2">24h</div>
+                            <div class="font-bold text-white text-base mb-1">Re-Clean Guarantee</div>
+                            <p class="text-xs text-slate-400">If any detail does not meet your specifications, our supervisor returns within 24 hours to re-clean it free of charge.</p>
+                        </div>
+                        <div class="bg-brand-card p-6 rounded-2xl border border-slate-700/70 shadow-lg">
+                            <div class="text-3xl font-display font-extrabold text-purple-400 mb-2">100%</div>
+                            <div class="font-bold text-white text-base mb-1">Custom Scope of Work</div>
+                            <p class="text-xs text-slate-400">No cookie-cutter templates. We build an itemized checklist tailored to your facility's exact layout and foot-traffic.</p>
+                        </div>
+                        <div class="bg-brand-card p-6 rounded-2xl border border-slate-700/70 shadow-lg">
+                            <div class="text-3xl font-display font-extrabold text-emerald-400 mb-2">Direct</div>
+                            <div class="font-bold text-white text-base mb-1">Account Manager Access</div>
+                            <p class="text-xs text-slate-400">One dedicated point of contact. No 1-800 call centers—get direct text/phone access to your local operations manager.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS -->
+    <section id="reviews" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                    Trusted By Property Leaders
+                </span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-3 tracking-tight">
+                    What New Jersey Clients Say
+                </h2>
+                <div class="flex items-center justify-center gap-1 mt-4">
+                    <i data-lucide="star" class="w-5 h-5 fill-amber-400 text-amber-400"></i>
+                    <i data-lucide="star" class="w-5 h-5 fill-amber-400 text-amber-400"></i>
+                    <i data-lucide="star" class="w-5 h-5 fill-amber-400 text-amber-400"></i>
+                    <i data-lucide="star" class="w-5 h-5 fill-amber-400 text-amber-400"></i>
+                    <i data-lucide="star" class="w-5 h-5 fill-amber-400 text-amber-400"></i>
+                    <span class="text-sm font-bold text-white ml-2">5.0 Star Average Across Commercial Clients</span>
+                </div>
+            </div>
+
+            <!-- Review Cards -->
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between shadow-xl">
+                    <div>
+                        <div class="flex gap-1 text-amber-400 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed italic mb-6">
+                            "They are honest and trustworthy, and I feel completely satisfied when left in their hands. Very professional attention to detail. Our team was blown away by their consistency week after week."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-800">
+                        <div class="w-10 h-10 rounded-full bg-brand-primary/20 text-brand-primary font-bold flex items-center justify-center">
+                            CD
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">Christopher Davis</div>
+                            <div class="text-xs text-slate-400">Verified Client • New Jersey</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between shadow-xl">
+                    <div>
+                        <div class="flex gap-1 text-amber-400 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed italic mb-6">
+                            "Managing a multi-suite medical practice means compliance audits are frequent. NTA Janitorial transformed our facility. Their sanitization documentation and attention to high-touch areas are top tier."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-800">
+                        <div class="w-10 h-10 rounded-full bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center">
+                            MR
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">Dr. Marcus Reynolds</div>
+                            <div class="text-xs text-slate-400">Clinical Facility Administrator • Edison, NJ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-brand-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between shadow-xl">
+                    <div>
+                        <div class="flex gap-1 text-amber-400 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed italic mb-6">
+                            "We had an emergency commercial move-out turnover for a 14,000 sq ft office building. NTA had a 6-person crew on-site that evening. Passed landlord final inspection on first walkthrough without a single deduction."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-800">
+                        <div class="w-10 h-10 rounded-full bg-purple-500/20 text-purple-400 font-bold flex items-center justify-center">
+                            SL
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">Sarah Levine</div>
+                            <div class="text-xs text-slate-400">Commercial Property Manager • New Brunswick, NJ</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / RAPID QUOTE SECTION -->
+    <section id="contact" class="py-24 bg-brand-dark/50 border-t border-slate-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12">
+                
+                <!-- Left: Info -->
+                <div class="lg:col-span-5">
+                    <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-brand-accent/10 px-3 py-1 rounded-full border border-brand-accent/20">
+                        Get In Touch
+                    </span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-4 tracking-tight">
+                        Schedule Your Free Facility Walkthrough
+                    </h2>
+                    <p class="text-slate-300 mt-4 text-sm sm:text-base leading-relaxed">
+                        We visit your New Jersey commercial facility, measure the square footage, evaluate traffic patterns, and deliver a transparent, itemized proposal within 24 hours.
+                    </p>
+
+                    <div class="mt-8 space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-brand-accent shrink-0">
+                                <i data-lucide="phone-call" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400">Direct Phone</div>
+                                <a href="tel:7326599648" class="text-lg font-bold text-white hover:text-brand-accent transition-colors">
+                                    732-659-9648
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-brand-accent shrink-0">
+                                <i data-lucide="map-pin" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400">Service Headquarters</div>
+                                <div class="text-sm font-bold text-white">North Brunswick, New Jersey</div>
+                                <div class="text-xs text-slate-400">Dispatched Statewide</div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-brand-accent shrink-0">
+                                <i data-lucide="clock" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-slate-400">Office & Scheduling Hours</div>
+                                <div class="text-sm font-bold text-white">Mon – Fri: 9:00 am – 5:00 pm</div>
+                                <div class="text-xs text-slate-400">Saturday: 9:00 am – 1:00 pm • 24/7 Cleaning Shifts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Rapid Form -->
+                <div class="lg:col-span-7">
+                    <div class="bg-brand-card rounded-3xl border border-slate-700/80 p-8 sm:p-10 shadow-2xl backdrop-blur-xl">
+                        <h3 class="font-display font-bold text-2xl text-white mb-2">Request A Cleaning Quote</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm mb-6">Complete this quick form and an operations manager will contact you shortly.</p>
+
+                        <form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Your Full Name *</label>
+                                    <input type="text" required placeholder="John Smith" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Company / Facility Name *</label>
+                                    <input type="text" required placeholder="Acme Logistics LLC" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Phone Number *</label>
+                                    <input type="tel" required placeholder="(732) 000-0000" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Work Email *</label>
+                                    <input type="email" required placeholder="jsmith@company.com" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Facility Type</label>
+                                    <select class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-brand-accent">
+                                        <option>Commercial Office</option>
+                                        <option>Medical / Healthcare Facility</option>
+                                        <option>School / Daycare Center</option>
+                                        <option>Auto Dealership / Showroom</option>
+                                        <option>Warehouse / Industrial</option>
+                                        <option>Commercial Move-In / Move-Out</option>
+                                        <option>Floor Stripping & Waxing Only</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1.5">Approx. Square Footage</label>
+                                    <select class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-brand-accent">
+                                        <option>Under 2,500 sq ft</option>
+                                        <option>2,500 - 5,000 sq ft</option>
+                                        <option>5,000 - 10,000 sq ft</option>
+                                        <option>10,000 - 25,000 sq ft</option>
+                                        <option>25,000+ sq ft</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Specific Cleaning Requirements or Schedule Notes</label>
+                                <textarea rows="3" placeholder="Tell us about your frequency preference (nightly, weekly), floor care needs, or target start date..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-brand-accent"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent hover:from-brand-accent hover:to-brand-primary text-brand-navy font-bold text-base transition-all shadow-glow flex items-center justify-center gap-2 group">
+                                <span>Submit Quote Request</span>
+                                <i data-lucide="send" class="w-4 h-4"></i>
+                            </button>
+                            <p class="text-[11px] text-center text-slate-400">
+                                🔒 Your information is private. We respond to all quote inquiries within 2-4 business hours.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-navy border-t border-slate-800 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+                
+                <!-- Col 1: Brand -->
+                <div>
+                    <div class="font-display font-bold text-2xl text-white flex items-center gap-2 mb-3">
+                        <i data-lucide="sparkles" class="w-6 h-6 text-brand-accent"></i>
+                        <span>NTA JANITORIAL</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        Premier commercial janitorial cleaning services across New Jersey. Dedicated to spotless workspaces, rigorous sanitization, and dependable service.
+                    </p>
+                    <div class="text-xs text-slate-300 font-semibold">
+                        North Brunswick, NJ • Licensed & Insured
+                    </div>
+                </div>
+
+                <!-- Col 2: Services -->
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider mb-4">Commercial Services</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Commercial Office Cleaning</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Medical & Dental Facility Sanitization</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Schools & Daycare Cleaning</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Auto Dealership Showroom Care</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Floor Stripping, Waxing & Burnishing</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Commercial Move-In / Move-Out</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Service Areas in NJ -->
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider mb-4">New Jersey Service Area</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-3">
+                        Centrally based in North Brunswick with mobile crews dispatched throughout:
+                    </p>
+                    <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                        <span>• North Brunswick</span>
+                        <span>• New Brunswick</span>
+                        <span>• Edison</span>
+                        <span>• Woodbridge</span>
+                        <span>• Piscataway</span>
+                        <span>• East Brunswick</span>
+                        <span>• Monroe Township</span>
+                        <span>• Somerset County</span>
+                    </div>
+                </div>
+
+                <!-- Col 4: Quick Contact -->
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider mb-4">Contact Direct</h4>
+                    <p class="text-xs text-slate-400 mb-2">Speak directly with an operations supervisor:</p>
+                    <a href="tel:7326599648" class="text-lg font-bold text-brand-accent hover:underline block mb-3">
+                        (732) 659-9648
+                    </a>
+                    <div class="text-xs text-slate-400">
+                        Mon – Fri: 9:00 am – 5:00 pm<br>
+                        Saturday: 9:00 am – 1:00 pm<br>
+                        Cleaning Crews Available 24/7/365
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Subfooter -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <div>
+                    © 2026 NTA Janitorial Cleaning Service. All Rights Reserved.
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-slate-400">Privacy Policy</a>
+                    <a href="#" class="hover:text-slate-400">Terms of Service</a>
+                    <a href="tel:7326599648" class="hover:text-brand-accent">732-659-9648</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL: RAPID QUOTE -->
+    <div id="quoteModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-brand-card border border-slate-700 rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl scale-95 transition-transform duration-300" id="quoteModalCard">
+            <button onclick="closeQuoteModal()" class="absolute top-5 right-5 text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+            <div class="flex items-center gap-2 mb-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-accent animate-ping"></span>
+                <span class="text-xs font-bold text-brand-accent uppercase tracking-wider">Fast Track Quote</span>
+            </div>
+            <h3 class="font-display font-bold text-2xl text-white mb-1" id="modalTitle">Request Rapid Facility Quote</h3>
+            <p class="text-xs text-slate-400 mb-6">Enter your contact info to confirm your pricing and lock in an on-site walkthrough.</p>
+
+            <form onsubmit="handleModalSubmit(event)" class="space-y-3.5">
+                <input type="text" id="modalServiceType" hidden>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Company / Facility Name</label>
+                    <input type="text" required placeholder="Business Name" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:border-brand-accent">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 mb-1">Contact Name</label>
+                        <input type="text" required placeholder="Your Name" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:border-brand-accent">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 mb-1">Phone Number</label>
+                        <input type="tel" required placeholder="(732) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:border-brand-accent">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Email Address</label>
+                    <input type="email" required placeholder="contact@company.com" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:border-brand-accent">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-300 mb-1">Facility Address / City in NJ</label>
+                    <input type="text" placeholder="e.g. North Brunswick, NJ" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:border-brand-accent">
+                </div>
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent text-brand-navy font-bold text-sm shadow-glow mt-4">
+                    Confirm & Dispatch Operations Manager
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SUCCESS TOAST -->
+    <div id="successToast" class="fixed bottom-6 right-6 z-50 bg-brand-dark border border-brand-accent/50 text-white px-5 py-4 rounded-2xl shadow-2xl flex items-center gap-3 translate-y-24 opacity-0 transition-all duration-300">
+        <div class="w-9 h-9 rounded-full bg-brand-accent text-brand-navy flex items-center justify-center font-bold">
+            <i data-lucide="check" class="w-5 h-5"></i>
+        </div>
+        <div>
+            <div class="text-sm font-bold text-white">Quote Request Received!</div>
+            <div class="text-xs text-slate-300">An NTA supervisor will call you within 2-4 hours.</div>
+        </div>
+    </div>
+
+    <!-- MOBILE FLOATING ACTION BAR -->
+    <div class="fixed bottom-0 inset-x-0 bg-brand-dark/95 border-t border-slate-800 p-3 sm:hidden z-40 backdrop-blur-xl flex gap-3">
+        <a href="tel:7326599648" class="flex-1 py-3 rounded-xl bg-slate-800 text-white text-xs font-bold flex items-center justify-center gap-2">
+            <i data-lucide="phone" class="w-4 h-4 text-brand-accent"></i>
+            Call 732-659-9648
+        </a>
+        <button onclick="openQuoteModal()" class="flex-1 py-3 rounded-xl bg-gradient-to-r from-brand-primary to-brand-accent text-brand-navy text-xs font-bold flex items-center justify-center gap-1.5 shadow-glow">
+            <i data-lucide="calculator" class="w-4 h-4"></i>
+            Get Rapid Quote
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
